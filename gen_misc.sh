@@ -1,5 +1,5 @@
 #!/bin/bash
-
+export PATH=/home/nilesh/esp-open-sdk/xtensa-lx106-elf/bin:$PATH
 echo "gen_misc.sh version 20150511"
 echo ""
 

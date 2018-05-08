@@ -22,4 +22,5 @@
  /home/nilesh/esp-open-sdk/xtensa-lx106-elf/xtensa-lx106-elf/include/sys/string.h \
  ../../include/espconn.h ../../include/mem.h ../include/mqtt/mqtt_msg.h \
  ../include/mqtt_config.h ../../include/c_types.h ../include/mqtt/debug.h \
- ../include/modules/config.h
+ ../include/modules/config.h ../include/modules/easygpio.h \
+ ../include/modules/ledmatrix.h ../../include/pwm.h
