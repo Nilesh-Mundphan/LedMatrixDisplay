@@ -81,6 +81,6 @@ void HC595Pulse(void);
 		  void print_str(char* str);
 		  void print_line(char *str);
 
-extern int16_t _width, _height, cursor_x, cursor_y;	
+extern volatile int16_t _width, _height, cursor_x, cursor_y;	
 
 #endif /* USER_WIFI_H_ */

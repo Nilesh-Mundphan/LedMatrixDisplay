@@ -30,4 +30,5 @@
  ../include/mqtt/typedef.h ../include/modules/wifi.h \
  ../include/modules/config.h ../include/mqtt/debug.h ../../include/gpio.h \
  ../../include/mem.h ../../include/sntp.h ../include/modules/easygpio.h \
- ../include/modules/ledmatrix.h ../../include/pwm.h FreeMonoBold9pt7b.h
+ ../include/modules/ledmatrix.h ../../include/pwm.h \
+ ../../include/espconn.h FreeMonoBold9pt7b.h

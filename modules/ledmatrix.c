@@ -13,7 +13,7 @@
 #include "pwm.h"
 
 
-int16_t _width, _height, cursor_x, cursor_y;	
+volatile int16_t _width, _height, cursor_x, cursor_y;	
 
 uint16_t textcolor, textbgcolor,brightnessval;
 uint8_t textsize,rotation;
@@ -506,6 +506,7 @@ size_t write(uint8_t c) {
 void print_line(char *str){
 	while(*str){
 			write(*str++);
+			//os_printf("CH:%d CC:%d\n",*str,cursor_x);
 	}
 }
 
